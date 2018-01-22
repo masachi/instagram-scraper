@@ -8,14 +8,15 @@ requires = [
 
 if sys.version_info < (3, 2):
     requires.append('futures==2.2')
+    requires.append('configparser')
 
 setup(
     name='instagram-scraper',
-    version='1.5.18',
+    version='1.5.19',
     description=("instagram-scraper is a command-line application written in Python"
                  " that scrapes and downloads an instagram user\'s photos and videos. Use responsibly."),
     url='https://github.com/rarcega/instagram-scraper',
-    download_url='https://github.com/rarcega/instagram-scraper/tarball/1.5.18',
+    download_url='https://github.com/rarcega/instagram-scraper/tarball/1.5.19',
     author='Richard Arcega',
     author_email='hello@richardarcega.com',
     license='Public domain',
